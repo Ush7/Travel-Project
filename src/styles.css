@@ -1,10 +1,12 @@
 body {
   font-family: "Poppins", sans-serif;
+  background: #272044;
 }
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 100px;
 }
 .container {
   max-width: 1400px;
@@ -19,7 +21,7 @@ section {
 }
 .footer-grid-column {
   grid-template-columns: 1fr 2fr 2fr;
-  padding: 60px 20px;
+  padding: 60px;
 }
 .img-responsive {
   max-width: 100%;
@@ -28,7 +30,43 @@ section {
 .windsor-description {
   align-items: end;
 }
+.secondary-main-section {
+  background-color: #f8f8f8;
+}
+.secondary-main-section h2,
+.secondary-main-section h3 {
+  text-align: center;
+}
+.grid-3-column {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
 
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px 30px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+#cafe-review {
+  padding-top: 30px;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/windsor.png");
@@ -96,6 +134,20 @@ main h3 {
   color: #272044;
   margin: 0;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
 
 main p {
   font-style: normal;
@@ -109,7 +161,6 @@ footer {
   background-image: linear-gradient(rgba(5, 37, 40, 0.8), rgba(5, 37, 40, 0.8)),
     url("../images/img-05.png");
   color: white;
-
   background-repeat: no-repeat;
 }
 footer h3 {
