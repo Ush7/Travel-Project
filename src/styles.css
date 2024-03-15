@@ -34,8 +34,11 @@ section {
 .secondary-main-section {
   background-color: #f8f8f8;
 }
-.secondary-main-section h2,
-.secondary-main-section h3 {
+.gallery-section h3 {
+  padding-bottom: 30px;
+}
+main h2,
+main h3 {
   text-align: center;
 }
 .grid-3-column {
